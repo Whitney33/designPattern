@@ -1,0 +1,20 @@
+- adapter适配器模式
+    - 设计意图：将一个接口转换成另外一个接口，实现接口之间的兼容
+    - 应用场景
+        - 需要使用的类库不符合现有系统接口的要求
+        - 不修改原有系统的情况下作旧系统的升级和改造，或者改造没有源码的一些类
+        - 想创建一个可以重复使用的类，用于与一些彼此之间没有太大关联的一些类，包括一些可能在将来引进的类一起工作。
+    - 典型结构
+        - target
+        - adaptee
+        - client
+        - adapter接口
+    - 相关模式
+        - bridge模式，将接口和实现分离
+        - decorator模式，增强对象的功能，而不改变原有的接口
+        - proxy模式，
+    - 源码
+        - HashMap
+        - spring aop
+        - spring Jpa
+        - https://blog.csdn.net/wwwdc1012/article/details/82780560?utm_medium=distribute.pc_relevant.none-task-blog-baidujs-7
